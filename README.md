@@ -2,8 +2,7 @@
 
 A neural network aimed specifically at learning fast matrix multiplication. For 2x2 matrices, the network learned the original Strassen Algorithm [1] with 7 multiplications and 18 additions. Additionally, it learned an exact algorithm with 7 multiplications and 16 additions, merely one more addition than the arithmetically optimal Strassen-Winograd algorithm [2].
 
-For a little bit more detail, please have a look at the accompanying [communication](
-https://github.com/christian-loeffeld/Strassen-Neural-Network/blob/master/Exact%20Strassen-Type%20Solutions%20for%202%20x%202%20Matrix%20Multiplication%20from%20Neural%20Network%20Learning.pdf), and for only the raw bits, follow along here.
+For a little bit more detail, please have a look at the accompanying [communication](https://github.com/christian-loeffeld/Neural-Network-for-Learning-Matrix-Muliplication/blob/main/Exact%20Strassen-Type%20Solutions%20for%202%20x%202%20Matrix%20Multiplication%20from%20Neural%20Network%20Learning.pdf), and for only the raw bits, follow along here.
 
 <br />
 
