@@ -1,4 +1,4 @@
-#### Strassen Neural Network
+#### Neural Networks for Learning Subcubic Matrix Muliplication Algorithms
 
 A neural network aimed specifically at learning fast matrix multiplication. For 2x2 matrices, the network learned the original Strassen Algorithm [1] with 7 multiplications and 18 additions. Additionally, it learned an exact algorithm with 7 multiplications and 16 additions, merely one more addition than the arithmetically optimal Strassen-Winograd algorithm [2].
 
