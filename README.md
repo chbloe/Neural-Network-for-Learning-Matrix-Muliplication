@@ -2,7 +2,7 @@
 
 A neural network approach is being developed aimed specifically at learning fast i.e. subcubic matrix multiplication. For 2x2 matrices, the network learned the original Strassen Algorithm [1] with 7 multiplications and 18 additions. Additionally, it learned an exact algorithm with 7 multiplications and 16 additions, merely one more addition than the arithmetically optimal Strassen-Winograd algorithm [2].
 
-For a little bit more detail, please have a look at the accompanying [communication](https://github.com/christian-loeffeld/Neural-Network-for-Learning-Matrix-Muliplication/blob/main/Exact%20Strassen-Type%20Solutions%20for%202%20x%202%20Matrix%20Multiplication%20from%20Neural%20Network%20Learning.pdf), and for only the raw bits, follow along below.
+For a little bit more detail, please have a look at the accompanying [**communication**](https://github.com/christian-loeffeld/Neural-Network-for-Learning-Matrix-Muliplication/blob/main/Exact%20Strassen-Type%20Solutions%20for%202%20x%202%20Matrix%20Multiplication%20from%20Neural%20Network%20Learning.pdf), and for only the raw bits, follow along below.
 
 Just how interesting and promising this approach is, was eventually demonstrated by a team at [**Google Deepmind**](https://www.deepmind.com/) in a Nature publication in 2022, see [here](https://www.nature.com/articles/s41586-022-05172-4).
 
